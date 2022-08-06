@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+  background-color:  #276aaa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+  width: 80%;
+  padding:12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=num], select, numarea {
+  width: 80%;
+  padding:12px;
+  border: 1x solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=date], select, datearea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+h1 {
+ 
+  text-align: center;
+  color:  #276aaa;
+  background-color: whitesmoke;
+} 
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color:  #276aaa;
+  color:white ;
+  padding:  12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+body {
+    margin:50px 0px; padding:0px;
+    text-align:center;
+    align-items: center;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 30px;
+  max-width :960px;
+   margin:auto;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+  <nav class="log">
+    <div class="nav_logo">
+    <img src="./IMAGES/aucoe_logo.png" alt="">
+    </div>
+  </nav>  
+
+
+<h1>REGISTRATION FORM</h1>
+
+
+<div class="container">
+  <form action="/action_page.php">
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="fnum">Hall ticket no</label>
+      </div>
+      <div class="col-75">
+        <input type="num" id="fnum" name="Hall ticket no" placeholder="Your num..">
+      </div>
+    </div>
+    <br>
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="sem">Select appearing  year/sem</label>
+      </div>
+      <div class="col-75">
+        <select id="num" name="semister">
+          <option value="select">--SELECT--</option>
+          <option value="num">3-1</option>
+          <option value="num">3-2</option>
+          <option value="num">4-1</option>
+          <option value="num">4-2</option>
+        </select>
+      </div>
+    </div>
+    <br>
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="text">Years of study</label>
+      </div>
+      <div class="col-75">
+        <select id="text" name="Years of study">
+        <option value="select">--SELECT--</option>
+          <option value="text">4 years</option>
+          <option value="text">5 years</option>
+          <option value="text">6 years</option>
+        </select>
+      </div>
+    </div>
+      <br>  
+        
+       <div class="row">
+      <div class="col-25">
+        <label for="date">Registered month/year</label>
+      </div>
+      <div class="col-75">
+     <input type="date" value="">
+
+    </div>   
+      </div>
+     <br> 
+      
+      <div class="row">
+      <div class="col-25">
+        <label for="text">Select specilization</label>
+      </div>
+      <div class="col-75">
+        <select id="text" name="Select specilization">
+        <option value="select">--SELECT--</option>
+          <option value="text">ARTIFICIAL INTELLIGENCE</option>
+          <option value="text">COMPUTER NETWORKS</option>
+          <option value="text">COMPUTER SCIENCE AND TECHNOLOGY</option>
+          <option value="text">INFORMATION TECHNOLOGY</option>
+          <option value="text">CYBER SECURITY</option>
+          
+        </select>
+      </div>
+    </div>
+    <br>
+     
+    
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+<br>
+
+</body>
+</html>

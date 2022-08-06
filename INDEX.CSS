@@ -1,0 +1,736 @@
+body {
+    margin: 0%;
+    background-color: #276aaa;
+}
+
+.A1 {
+    justify-content: center;
+
+}
+
+.B0_1IMG {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.B0_1LINKS {
+    display: inline-flex;
+    justify-content: space-around;
+    background-color: white;
+    color: #276aaa;
+    width: 100%;
+
+}
+
+.B0_1LINKS a {
+
+    text-decoration: none;
+    list-style-type: none;
+    border: 2px solid #276aaa;
+    border-radius: 3px;
+    width: 100%;
+    background-color: aliceblue;
+    color: #276aaa;
+
+}
+
+.B0_1LINKS a:hover {
+    color: aliceblue;
+    background-color: #1f528183;
+}
+
+
+
+@media only screen and (max-width:600px) {
+    .B0_1LINKS {
+        width: 100%;
+        background-color: white;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        flex-direction: column;
+        align-items: center;
+        font-size: 10PX;
+        font-family: sans-serif;
+
+
+    }
+
+    .B0_1LINKS a {
+
+        display: inline-flex;
+        width: 100%;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        border: 0;
+        border-radius: 0px;
+        background-color: white;
+        color: #276aaa;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+.A2 {
+    margin: 0%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./IMAGES/zoom3-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 23em;
+
+
+}
+
+.B0_2IMG {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+
+}
+
+.B0_2INFO {
+    width: 50%;
+    height: 8em;
+    border: 2px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    list-style: none;
+    background-color: #9a9898c6;
+
+}
+
+.B0_2INFO ul {
+
+
+    list-style: none;
+
+}
+
+.B0_2INFO a {
+    border: #142939 2px solid;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: 1.7em;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background-color: #142939;
+
+
+}
+
+.B0_2INFO a {
+
+    text-decoration: none;
+
+}
+
+
+
+
+@media only screen and (max-width:700px) {
+    .A2 {
+        display: inline-flex;
+        margin: 0%;
+        width: 100%;
+        align-items: center;
+        background-image: url(./IMAGES/zoom3-3-2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 30em;
+
+    }
+
+    .B0_2INFO {
+        width: 60%;
+        height: 8em;
+        border: 2px solid black;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+        background-color: #9a9898c6;
+
+        justify-content: center;
+        padding-right: 2em;
+    }
+
+    .B0_2INFO a {
+        border-radius: 4px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+.A3 {
+    scroll-behavior: auto;
+    display: flex;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+
+
+
+.A4 {
+    display: flex;
+    background-color: #276aaa;
+    color: aliceblue;
+}
+
+a {
+    color: aliceblue;
+}
+
+
+
+@media only screen and (max-width:375px) {
+    .A4 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*////////////////////////////////////////////*/
+
+
+
+
+/*  SEG PAGE */
+.stuff {
+    display: flex;
+    margin: 0;
+    padding: 2em;
+
+}
+
+.stuff_box {
+
+    padding: 2PX;
+    background-color: #f1f1f1;
+    width: 50%;
+
+
+}
+
+.stuff_box a {}
+
+.stuff_box table {
+
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+
+}
+
+.stuff_box table a {
+    color: black;
+    text-decoration: none;
+}
+
+.stuff_box td,
+.stuff_box th {
+    border: 1px solid #dddddd;
+    padding: 3em;
+    text-align: center;
+
+
+}
+
+
+
+
+.sd {
+    background-color: #366282;
+
+}
+
+.sd:hover {
+    background: linear-gradient(#366282, #142939);
+}
+
+.SEG {
+    background-color: rgb(45, 99, 81);
+
+}
+
+.SEG:hover {
+    background: linear-gradient(rgb(45, 99, 81), rgb(28, 63, 51));
+}
+
+.FEE {
+    background-color: #595281;
+}
+
+.FEE:hover {
+    background: linear-gradient(#595281, #2b254c);
+}
+
+
+.TT {
+    background-color: #826F66;
+}
+
+.TT:hover {
+    background: linear-gradient(#826F66, #533b30);
+}
+
+.SBS {
+    background-color: #a72447;
+
+}
+
+.SBS:hover {
+    background: linear-gradient(#a72447, #561123);
+}
+
+.AMTS {
+    background-color: #85586F;
+
+}
+
+.AMTS:hover {
+    background: linear-gradient(#85586F, #35202b);
+}
+
+.HT {
+    background-color: #a24923;
+
+}
+
+.HT:hover {
+    background: linear-gradient(#a24923, #3d1e10);
+
+}
+
+.RES {
+    background-color: #505a95;
+}
+
+.RES:hover {
+    background: linear-gradient(#505a95, #232845);
+
+}
+
+.ATNDS {
+    background-color: #4f4f4f;
+
+}
+
+.ATNDS:hover {
+    background: linear-gradient(#4f4f4f, #313030);
+
+}
+
+
+
+
+
+
+.notes {
+
+    padding: 2PX;
+    background-color: #f1f1f1;
+    width: 50%;
+
+
+}
+
+.note_items {
+    padding-top: 2em;
+    padding-right: 2em;
+}
+
+.foot {
+    display: block;
+}
+
+
+
+
+
+@media only screen and (max-width:700px) {
+    .nav_links {
+        padding-top: 3em;
+    }
+
+    .stuff {
+        margin-top: 2em;
+        font-family: sans-serif;
+        width: 100%;
+        display: block;
+
+        padding: 0px;
+
+
+    }
+
+    .stuff_box {
+        text-decoration: wavy;
+        color: #dddddd;
+        width: 100%;
+        background-color: #276aaa;
+        display: grid;
+        padding-bottom: 2em;
+
+
+
+    }
+
+    .stuff_box a {
+        padding: 0%;
+        margin: 0%;
+    }
+
+    table {
+
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+
+    }
+
+    table a {
+        color: black;
+        text-decoration: none;
+    }
+
+    td,
+    th {
+        display: grid;
+        border: 1px solid #dddddd;
+        padding: 10px;
+        text-align: center;
+
+
+    }
+
+
+    .notes {
+
+
+        background-color: #3d4044;
+        width: 100%;
+        color: white
+    }
+
+    .note_items {
+        font-size: small;
+        padding-top: 2em;
+        padding-right: 2em;
+        padding-bottom: 2em;
+    }
+
+}
+
+
+
+
+
+
+/* LOG IN */
+
+
+
+
+.box {
+    margin-top: 3em;
+    width: 100%;
+
+    font-family: cosmic, sans-serif;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box .card {
+    margin-bottom: 25px;
+
+    width: 380px;
+    height: 500px;
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.26);
+    perspective: 1000px;
+
+}
+
+.box .card .inner-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    transform-style: preserve-3d;
+    transform: 1s;
+}
+
+.box .card .inner-box .card-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    background-color: rgba(17, 30, 50, 0.46);
+    padding: 55px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+
+}
+
+.box .card .inner-box .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    background-color: darkslategray;
+    padding: 55px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+
+}
+
+.box .card .inner-box .card-front h2 {
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.box .card .inner-box .card-front form .input-box {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    margin: 6px 0;
+    height: 32px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: #fff;
+}
+
+.box .card .inner-box .card-front form ::placeholder {
+
+    color: #fff;
+    font-size: 12px;
+}
+
+.box .card .inner-box .card-front::placeholder {
+    color: #fff;
+    font-size: 12px;
+}
+
+.box .card .inner-box .card-front button {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    margin: 35px 0 10px;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.box .card .inner-box .card-front form .submit-btn {
+    position: relative;
+}
+
+.box .card .inner-box .card-front form .submit-btn::after {
+    content: '\27a4';
+    color: #333;
+    line-height: 32px;
+    font-size: 17px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+
+}
+
+span {
+    font-size: 15px;
+    margin-left: 10px;
+
+}
+
+.box.card .inner-box .card-front .btn {
+    margin-top: 70px;
+
+}
+
+.box .card .inner-box .card-front a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.box .card .inner-box .card-back h2 {
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.box.card .inner-box .card-back form .input-box {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    margin: 6px 0;
+    height: 32px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: #fff;
+}
+
+.box .card .inner-box .card-back form ::placeholder {
+
+    color: #fff;
+    font-size: 12px;
+}
+
+.box .card .inner-box .card-back ::placeholder {
+
+    color: #fff;
+    font-size: 12px;
+}
+
+.box .card .inner-box .card-back button {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    margin: 35px 0 10px;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.box .card .inner-box .card-back form .submit-btn {
+    position: relative;
+}
+
+.box .card .inner-box .card-back form .submit-btn::after {
+    content: '\27a4';
+    color: #333;
+    line-height: 32px;
+    font-size: 17px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+
+}
+
+span {
+    font-size: 15px;
+    margin-left: 10px;
+
+}
+
+.box .card .inner-box .card-back .btn {
+    margin-top: 70px;
+
+}
+
+.box .card .inner-box .card-back a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* time table */
+
+
+.ttbox {
+    color: whitesmoke;
+}
